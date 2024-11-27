@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-27T11:38:17 IST" name="Suite" finished-at="2024-11-27T11:38:25 IST" duration-ms="8121">
+  <suite started-at="2024-11-27T12:55:09 IST" name="Suite" finished-at="2024-11-27T12:55:19 IST" duration-ms="10041">
     <groups>
     </groups>
-    <test started-at="2024-11-27T11:38:17 IST" name="Test" finished-at="2024-11-27T11:38:25 IST" duration-ms="8121">
+    <test started-at="2024-11-27T12:55:09 IST" name="Test" finished-at="2024-11-27T12:55:19 IST" duration-ms="10041">
       <class name="testCase.FitWebTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCase.FitWebTest@64c63c79]" started-at="2024-11-27T11:38:18 IST" name="setUp" finished-at="2024-11-27T11:38:23 IST" duration-ms="5099" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCase.FitWebTest@31c7528f]" started-at="2024-11-27T12:55:10 IST" name="setUp" finished-at="2024-11-27T12:55:17 IST" duration-ms="6976" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="functionalityCheck()[pri:0, instance:testCase.FitWebTest@64c63c79]" started-at="2024-11-27T11:38:23 IST" name="functionalityCheck" finished-at="2024-11-27T11:38:25 IST" duration-ms="2634" status="PASS">
+        <test-method signature="functionalityCheck()[pri:0, instance:testCase.FitWebTest@31c7528f]" started-at="2024-11-27T12:55:17 IST" name="functionalityCheck" finished-at="2024-11-27T12:55:19 IST" duration-ms="2388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- functionalityCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.FitWebTest@64c63c79]" started-at="2024-11-27T11:38:25 IST" name="tearDown" finished-at="2024-11-27T11:38:25 IST" duration-ms="171" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.FitWebTest@31c7528f]" started-at="2024-11-27T12:55:19 IST" name="tearDown" finished-at="2024-11-27T12:55:19 IST" duration-ms="333" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:

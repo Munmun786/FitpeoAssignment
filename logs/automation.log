@@ -1,13 +1,1 @@
-11:38:00.406 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5733f295: 0 ms
-11:38:17.859 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  E:\TestSelenium\FitpeoWeb\testng.xml
-
-11:38:23.171 [main] INFO  testCase.FitWebTest - ***** Start test: functionalityCheck *****
-11:38:23.171 [main] INFO  testCase.FitWebTest - Navigating to Revenue Calculator page.
-11:38:23.253 [main] INFO  testCase.FitWebTest - Scrolling to slider and adjusting it.
-11:38:24.753 [main] INFO  testCase.FitWebTest - Setting input field value.
-11:38:24.906 [main] INFO  testCase.FitWebTest - Verifying input field value.
-11:38:24.933 [main] INFO  testCase.FitWebTest - Selecting CPT codes.
-11:38:25.753 [main] INFO  testCase.FitWebTest - Validating total reimbursement.
-11:38:25.799 [main] INFO  testCase.FitWebTest - Test completed successfully.
-11:38:25.807 [main] INFO  testCase.FitWebTest - Closing the browser.
+12:55:19.576 [main] INFO  testCase.FitWebTest - Closing the browser.

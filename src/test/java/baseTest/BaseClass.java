@@ -19,6 +19,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import pageobject.RevenueCalculatorPage;
 
+
 public class BaseClass {
 	
 public WebDriver driver;
@@ -27,7 +28,9 @@ public Logger logger;
 
      @Parameters("browser")
 	 @BeforeClass
-	    public void setUp(String br) {
+	    public void setUp(String br) throws Exception {
+    	 
+    	  
 		 logger=LogManager.getLogger(this.getClass());
 		 
 		 
@@ -46,7 +49,7 @@ public Logger logger;
 	    }
 	
 	 @AfterClass
-	    public void tearDown() {
+	    public void tearDown() throws Exception {
 	        if (driver != null) {
 	            driver.quit();
 	            

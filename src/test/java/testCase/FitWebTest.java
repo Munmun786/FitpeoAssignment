@@ -44,7 +44,7 @@ public class FitWebTest extends BaseClass {
             
             logger.info("Validating total reimbursement.");
             String actualText = revenuePage.getTotalReimbursementText();
-            Assert.assertTrue(actualText.contains("$11016"), "Total Reimbursement mismatch");
+            Assert.assertTrue(actualText.contains("$110160"), "Total Reimbursement mismatch");
             
             logger.info("Test completed successfully.");
         } catch (Exception e) {
